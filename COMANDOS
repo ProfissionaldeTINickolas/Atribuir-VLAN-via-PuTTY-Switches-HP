@@ -1,0 +1,12 @@
+system-view
+display current-configuration
+
+//aperte ctrl C para sair das configurações após verificar o número da porta e seu membro no Rack
+
+interface GigabitEthernet XX/XX/XX //Substitua pelo numero da porta e membro
+
+port access vlan XXX //Coloque o num. da VLAN
+
+save
+
+quit
